@@ -1,0 +1,31 @@
+# ignore everything
+*
+
+# included files
+!.gitignore
+!README.md
+
+# included directories & contents
+!.icons/
+!.icons/**
+
+!.themes/
+!.themes/**
+
+!.config/assets/
+!.config/assets/**
+
+!.config/fastfetch/
+!.config/fastfetch/**
+
+!.config/hypr/
+!.config/hypr/**
+
+!.config/kitty/
+!.config/kitty/**
+
+!.config/rofi/
+!.config/rofi/**
+
+!.config/waybar/
+!.config/waybar/**
