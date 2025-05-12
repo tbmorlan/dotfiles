@@ -1,0 +1,9 @@
+ghostmirror
+ghostmirror-debug
+hyprshot
+light
+light-debug
+python-pywalfox
+ttf-joypixels
+yay
+yay-debug
