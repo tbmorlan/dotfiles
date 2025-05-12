@@ -12,7 +12,7 @@
 {
 	"layer": "bottom",
 	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar"],
-	"modules-center": ["clock"],
+	"modules-center": ["custom/lowercase_clock"],
 	"modules-right": ["network", "tray", "cava", "backlight","pulseaudio","battery","custom/power"],
 	
 	"pulseaudio": {
@@ -97,7 +97,6 @@
         ]
     },
 
-
     "hyprland/language": {
         "format": "  {1}",
         "tooltip": false,
@@ -124,9 +123,11 @@
         "on-click": "bash ~/.config/rofi/powermenu.sh",
         "on-click-right": "killall rofi",
     },
-    "clock": {
-        "format": "  {:%a - %b %d, %Y - %R}",
-        "tooltip": false,
+    "custom/lowercase_clock": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/lowercase_clock.sh",
+        "interval": 60,
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -147,7 +148,7 @@
 }
     },
     "network": {
-        "interface": "wlo1",
+        "interface": "wlo1", //edit this with the nic located in sys/class/net
         "format-wifi": "󰘊 wifi ({signalStrength}%)",
         "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "disconnected",
