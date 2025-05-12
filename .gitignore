@@ -1,17 +1,20 @@
-# ignore everything
+# Ignore everything
 *
 
-# included files
+# Allow specific files
 !.gitignore
 !README.md
 
-# included directories & contents
+# Allow specific top-level directories
 !.icons/
 !.icons/**
 
 !.themes/
 !.themes/**
 
+# Allow .config directory itself, but exclude everything inside by default
+!.config/
+.config/*
 !.config/assets/
 !.config/assets/**
 
