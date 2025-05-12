@@ -4,6 +4,8 @@
 # Allow specific files
 !.gitignore
 !README.md
+!aur_packages.txt
+!pacman_packages.txt
 
 # Allow specific top-level directories
 !.icons/
