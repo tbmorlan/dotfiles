@@ -4,7 +4,8 @@
 STATE_FILE="/tmp/kbd_light_state"
 
 #toggle light
-if [[ -f "$STATE_FILE" && "$(cat "$STATE_FILE")" == "on" ]]; then
+if [[ -f "$STATE_FILE" && "$(cat "$STATE_FILE")" == "on" ]]; 
+then
     openrgb --device 0 --mode Off
     echo "off" > "$STATE_FILE"
 else
