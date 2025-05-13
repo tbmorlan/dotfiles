@@ -6,6 +6,7 @@
 !README.md
 !aur-packages.txt
 !pacman-packages.txt
+!export-package-list.sh
 
 # Allow specific top-level directories
 !.icons/
