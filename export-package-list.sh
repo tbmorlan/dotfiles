@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# export pacman packages (without version numbers)
+# pacman packages
 pacman -Qq | sort > pacman-packages.txt
 
-# export AUR packages (without version numbers)
+# AUR packages
 pacman -Qqm | sort > aur-packages.txt
 
 git add pacman-packages.txt aur-packages.txt
