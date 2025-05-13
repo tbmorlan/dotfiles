@@ -124,11 +124,11 @@
         "on-click-right": "killall rofi",
     },
     "custom/lowercase_clock": {
-  "format": "{}",
-  "exec": "~/.config/waybar/scripts/lowercase_clock.sh",
-  "interval": 60,
-  "tooltip": true,
-  "return-type": "json"
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/lowercase_clock.sh",
+        "interval": 1,
+        "tooltip": true,
+        "return-type": "json"
     },
 
     "hyprland/workspaces": {
