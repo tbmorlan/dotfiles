@@ -11,9 +11,9 @@
 
 {
 	"layer": "bottom",
-	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar"],
+	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar","tray"],
 	"modules-center": ["custom/lowercase_clock"],
-	"modules-right": ["network", "tray", "cava", "backlight","pulseaudio","battery","custom/power"],
+	"modules-right": ["network", "cava", "backlight","pulseaudio","battery","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -112,7 +112,7 @@
         "max-length": 10
     },
     "custom/launcher":{
-        "format": " ",
+        "format": "\uec10 ",
         "on-click": "rofi -show drun",
         "on-click-right": "killall rofi",
         "tooltip": false,
@@ -124,11 +124,13 @@
         "on-click-right": "killall rofi",
     },
     "custom/lowercase_clock": {
-        "format": "{}",
-        "exec": "~/.config/waybar/scripts/lowercase_clock.sh",
-        "interval": 60,
-        "tooltip": false
+  "format": "{}",
+  "exec": "~/.config/waybar/scripts/lowercase_clock.sh",
+  "interval": 60,
+  "tooltip": true,
+  "return-type": "json"
     },
+
     "hyprland/workspaces": {
         "format": "{icon}",
         "tooltip": false,
