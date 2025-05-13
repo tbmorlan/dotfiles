@@ -8,6 +8,6 @@ if [[ -f "$STATE_FILE" && "$(cat "$STATE_FILE")" == "on" ]]; then
     openrgb --device 0 --mode Off
     echo "off" > "$STATE_FILE"
 else
-    openrgb --device 0 --mode Static --color "5577f1"
+    openrgb --device 0 --mode Static --color "6996ff"
     echo "on" > "$STATE_FILE"
 fi
