@@ -12,7 +12,7 @@
 * {
     bg: rgba(30, 30, 46, 0.5);
     hv: #819CD3;
-    primary: #112861;
+    primary: rgba(30, 30, 46, 0.5);
     ug: #819CD3;
     font: "Jetbrains Mono Nerd Font 11";
     background-color: @bg;
@@ -65,6 +65,7 @@ message {
 entry, prompt, case-indicator {
     text-font: inherit;
     text-color: inherit;
+    background-color: rgba(30, 30, 46, 0.0);
 }
 
 entry {
@@ -91,6 +92,7 @@ element {
     padding: 2px;
     vertical-align: 1;
     color: @kl;
+    background-color: rgba(30, 30, 46, 0.0);
     font: inherit;
 }
 
@@ -127,7 +129,6 @@ button {
     padding: 6px;
     color: @primary;
     horizonatal-align: 0.5;
-
     border: 2px 0px 2px 2px;
     border-radius: 4px 0px 0px 4px;
     border-color: @primary;

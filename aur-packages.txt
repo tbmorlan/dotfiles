@@ -6,6 +6,7 @@ light-debug
 mcontrolcenter-bin
 mcontrolcenter-bin-debug
 msi-perkeyrgb
+psst-git-debug
 python-convertdate
 python-hijridate
 python-holidays

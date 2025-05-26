@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# pacman packages
-pacman -Qq | sort > pacman-packages.txt
+REPO_DIR="/home/mika/"
 
-# AUR packages
-pacman -Qqm | sort > aur-packages.txt
-
-git add pacman-packages.txt aur-packages.txt
-git commit -m "Auto-update package list on $(date)"
-git push
+# export pacman
+pacman -Qq | sort > "$REPO_DIR/pacman-packages.txt"
+#export aur
+pacman -Qqm | sort > "$REPO_DIR/aur-packages.txt"
