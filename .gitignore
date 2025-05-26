@@ -35,3 +35,6 @@
 
 !.config/waybar/
 !.config/waybar/**
+
+!.config/nwg-drawer
+!.config/nwg-drawer/**
