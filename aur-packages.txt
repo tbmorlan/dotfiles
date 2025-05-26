@@ -18,5 +18,7 @@ python-taskw
 tofi
 tofi-debug
 ttf-joypixels
+vesktop
+vesktop-debug
 yay
 yay-debug

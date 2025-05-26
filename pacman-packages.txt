@@ -41,7 +41,12 @@ bc
 binutils
 bison
 blas
+blueberry
+bluez
+bluez-deprecated-tools
 bluez-libs
+bluez-tools
+bluez-utils
 boost-libs
 bpytop
 brightnessctl
@@ -53,6 +58,7 @@ ca-certificates-mozilla
 ca-certificates-utils
 cairo
 cairomm
+cairomm-1.16
 cantarell-fonts
 c-ares
 cinnamon-desktop
@@ -139,10 +145,12 @@ git
 glib2
 glibc
 glibmm
+glibmm-2.68
 glib-networking
 glslang
 glu
 gmp
+gnome-bluetooth
 gnu-free-fonts
 gnulib-l10n
 gnupg
@@ -172,6 +180,7 @@ gtk3
 gtk4
 gtk-layer-shell
 gtkmm3
+gtkmm-4.0
 gtksourceview3
 gtk-update-icon-cache
 guile
@@ -195,6 +204,7 @@ hyprland-qt-support
 hyprland-qtutils
 hyprlang
 hyprpaper
+hyprpolkitagent
 hyprshot
 hyprutils
 hyprwayland-scanner
@@ -341,6 +351,7 @@ libbpf
 libbs2b
 libbsd
 libbytesize
+libcanberra
 libcap
 libcap-ng
 libcdio
@@ -477,6 +488,7 @@ libsasl
 libseccomp
 libsecret
 libsigc++
+libsigc++-3.0
 libsm
 libsndfile
 libsodium
@@ -622,6 +634,7 @@ nss
 ntfs-3g
 nvidia-dkms
 nvidia-utils
+nwg-dock-hyprland
 nwg-look
 ocl-icd
 oniguruma
@@ -655,9 +668,11 @@ pam
 pambase
 pango
 pangomm
+pangomm-2.48
 papirus-icon-theme
 parted
 patch
+pavucontrol
 pciutils
 pcre
 pcre2
@@ -695,6 +710,7 @@ python-cffi
 python-convertdate
 python-cryptography
 python-dateutil
+python-dbus
 python-editables
 python-filelock
 python-gobject
@@ -721,6 +737,7 @@ python-psutil
 python-pycparser
 python-pytz
 python-pywalfox
+python-setproctitle
 python-setuptools
 python-six
 python-taskw
@@ -768,6 +785,7 @@ snappy
 sndio
 sof-firmware
 sord
+sound-theme-freedesktop
 spdlog
 speex
 speexdsp
@@ -789,6 +807,7 @@ systemd-sysvcompat
 taglib
 tar
 task
+tdb
 tesseract
 tesseract-data-nor
 tesseract-data-osd
@@ -841,6 +860,7 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-joypixels
 ttf-lekton-nerd
+ttf-liberation
 ttf-liberation-mono-nerd
 ttf-lilex-nerd
 ttf-martian-mono-nerd
@@ -876,6 +896,8 @@ util-linux
 util-linux-libs
 v4l-utils
 vapoursynth
+vesktop
+vesktop-debug
 vid.stab
 vim
 vim-runtime
