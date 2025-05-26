@@ -113,7 +113,7 @@
     },
     "custom/launcher":{
         "format": "\uec10 ",
-        "on-click": "nwg-drawer",
+        "on-click": "nwg-drawer -is 35",
         "on-click-right": "killall nwg-drawer",
         "tooltip": false,
     },
