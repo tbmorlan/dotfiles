@@ -113,8 +113,8 @@
     },
     "custom/launcher":{
         "format": "\uec10 ",
-        "on-click": "rofi -show drun",
-        "on-click-right": "killall rofi",
+        "on-click": "nwg-drawer",
+        "on-click-right": "killall nwg-drawer",
         "tooltip": false,
     },
     "custom/power":{
