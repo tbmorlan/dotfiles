@@ -1,3 +1,4 @@
+bdf-unifont
 ghostmirror
 ghostmirror-debug
 hyprshot
@@ -15,6 +16,7 @@ python-kitchen
 python-korean_lunar_calendar
 python-pywalfox
 python-taskw
+snapper-gui-git
 tofi
 tofi-debug
 ttf-joypixels

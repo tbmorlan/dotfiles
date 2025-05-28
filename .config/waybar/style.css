@@ -20,7 +20,7 @@ white-blue: #819CD3;
 	border: none;
 	border-radius: 10;
     font-family: "JetbrainsMono Nerd Font" ;
-	font-size: 15px;
+	font-size: 14px;
 	min-height: 10px;
 }
 
@@ -30,9 +30,9 @@ window#waybar {
 
 #network {
     margin-top: 5px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -53,7 +53,7 @@ window#waybar {
     margin-top: 5px;
     margin-left: 5px;
     padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -73,8 +73,8 @@ window#waybar {
 #custom-keybinds {
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -91,32 +91,11 @@ window#waybar {
     color: #22336e;
 }
 
-#cava{
-    margin-top: 5px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 0px;
-    border-radius: 10px;
-    transition: none;
-    background-color: rgba(17, 40, 97, 0); 
-    color: #819CD3;
-    border-bottom: 0px;
-    border-style: solid;
-    border-color: #819CD3;
-    transition: 0.3s; 
-}
-
-#cava:hover{
-    color: #22336e;
-    background: #819CD3;
-}
-
 #battery{
     margin-top: 5px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -140,9 +119,9 @@ window#waybar {
 
 #backlight{
     margin-top: 5px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -157,8 +136,8 @@ window#waybar {
 #language{
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -177,9 +156,9 @@ window#waybar {
 
 #pulseaudio {
     margin-top: 5px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -213,10 +192,11 @@ window#waybar {
 }
 
 #custom-lowercase_clock {
+    font-size: 15px;
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -244,8 +224,8 @@ tooltip {
 #disk{
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -265,8 +245,8 @@ tooltip {
 #privacy{
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -317,9 +297,9 @@ tooltip {
 #memory {
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 0px;
-    padding-right: 10px;
+    padding-right: 5px;
     border-radius: 10px;
     transition: none;
     background-color: rgba(17, 40, 97, 0); 
@@ -339,9 +319,9 @@ tooltip {
 #cpu {
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 0px;
-    padding-right: 10px;
+    padding-right: 5px;
     border-radius: 10px;
     transition: none;
     background-color: rgba(17, 40, 97, 0); 
@@ -362,7 +342,7 @@ tooltip {
     font-size: 25px;
     margin-top: 5px;
     margin-left: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 5px;
     border-radius: 10px;
     transition: none;
@@ -397,7 +377,7 @@ tooltip {
     margin-top: 5px;
     margin-left: 8px;
     margin-right: 17px;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -438,7 +418,7 @@ tooltip {
     margin-top: 5px;
     margin-left: 0px;
     padding-left: 0px;
-    padding-right: 10px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -453,8 +433,8 @@ tooltip {
 #tray menu{
     margin-top: 5px;
     margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;

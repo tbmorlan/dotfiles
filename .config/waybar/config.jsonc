@@ -13,10 +13,10 @@
 	"layer": "bottom",
 	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar","tray"],
 	"modules-center": ["custom/lowercase_clock"],
-	"modules-right": ["network", "cava", "backlight","pulseaudio","battery","custom/power"],
+	"modules-right": ["network", "backlight","pulseaudio","battery","custom/power"],
 	
 	"pulseaudio": {
-		"tooltip": false,
+		"tooltip": true,
 		"scroll-step": 1,
 		"format": "{icon}  {volume}%",
 		"format-muted": "muted",
@@ -25,24 +25,6 @@
 			"default": ["", "", ""]
 		}
 	},
-    "cava": {
-            "framerate": 240,
-            "autosens": 1,
-            "sensitivity": 5,
-            "bars": 8,
-            "lower_cutoff_freq": 50,
-            "higher_cutoff_freq": 10000,
-            "method": "pulse",
-            "source": "auto",
-            "stereo": false,
-            "reverse": false,
-            "bar_delimiter": 0,
-            "monstercat": true,
-            "waves": true,
-            "noise_reduction": 0.77,
-            "input_delay": 0,
-            "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-             },
 
     "custom/keybinds": {
         "format": "{icon} KB",
@@ -151,7 +133,7 @@
     },
     "network": {
         "interface": "wlo1", //edit this with the nic located in sys/class/net
-        "format-wifi": "󰘊 wifi ({signalStrength}%)",
+        "format-wifi": "󰘊 wifi",
         "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "disconnected",
         "tooltip": false,
