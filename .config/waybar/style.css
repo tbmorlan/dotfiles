@@ -20,7 +20,7 @@ white-blue: #819CD3;
 	border: none;
 	border-radius: 10;
     font-family: "JetbrainsMono Nerd Font" ;
-	font-size: 14px;
+	font-size: 16px;
 	min-height: 10px;
 }
 
@@ -373,12 +373,12 @@ tooltip {
 }
 
 #custom-power {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 8px;
-    margin-right: 17px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
@@ -446,3 +446,66 @@ tooltip {
     transition: 0.3s;
 }
 
+
+#custom-notification.notification:hover,
+#custom-notification.dnd-none:hover,
+#custom-notification.dnd-notification:hover,
+#custom-notification:hover,
+#custom-notification.notification:hover,
+#custom-notification.dnd-notification:hover { 
+    color: #22336e;
+    background: #819CD3;
+}
+
+#custom-notification.notification {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    color: #819CD3;
+}
+
+#custom-notification.dnd-none {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    color: #819CD3;
+}
+
+#custom-notification.dnd-notification {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    color: #819CD3;
+}
+
+#custom-notification {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    color: #819CD3;
+    margin-right: 10px;
+}
+
+#custom-notification.notification,
+#custom-notification.dnd-notification {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    color: #f7768e;
+    margin-right: 10px;
+}

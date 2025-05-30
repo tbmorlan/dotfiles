@@ -38,3 +38,6 @@
 
 !.config/nwg-drawer
 !.config/nwg-drawer/**
+
+!.config/swaync
+!.config/swaync/**
