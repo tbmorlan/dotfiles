@@ -11,7 +11,7 @@
 
 {
 	"layer": "bottom",
-	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar","tray"],
+	"modules-left": ["custom/launcher","hyprland/workspaces","wlr/taskbar"], 
 	"modules-center": ["custom/lowercase_clock"],
 	"modules-right": ["network","pulseaudio","battery","custom/notification","custom/power"],
 	
@@ -94,7 +94,7 @@
         "tooltip": false,
     },
     "custom/power":{
-        "format": "⏻ ",
+        "format": "\uec10 ",
         "tooltip": false,
         "on-click": "bash ~/.config/rofi/powermenu.sh",
         "on-click-right": "killall rofi",

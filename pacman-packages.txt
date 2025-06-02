@@ -696,6 +696,7 @@ node-gyp
 nodejs
 nodejs-nopt
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
 npm
 npth
