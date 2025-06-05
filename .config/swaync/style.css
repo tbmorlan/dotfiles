@@ -10,20 +10,21 @@
 }
 
 .notification-row {
+  background-color: rgba(30, 30, 46, 0);
   outline: none;
   margin: 0px;
   padding: 0px;
 }
 
 .notification {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
   border: 2px solid #34548a;
   border-radius: 0px;
-  margin: 3px -2px 3px 0px;
+  margin: 5px 10px 0px 10px;
 }
 
 .notification-content {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
 }
 
 .notification-default-action {
@@ -74,12 +75,12 @@
 
 .notification-action:first-child {
   border-bottom-left-radius: 10px;
-  background: #1b1b2b;
+  background: transparent;
 }
 
 .notification-action:last-child {
   border-bottom-right-radius: 10px;
-  background: #1b1b2b;
+  background: transparent;
 }
 
 .inline-reply {
@@ -87,7 +88,7 @@
 }
 
 .inline-reply-entry {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0.8);
   color: #819CD3;
   caret-color: #819CD3;
   border: 1px solid #819CD3;;
@@ -96,7 +97,7 @@
 
 .inline-reply-button {
   margin-left: 4px;
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0.8);
   border: 1px solid #819CD3;;
   border-radius: 5px;
   color: #819CD3;
@@ -158,16 +159,16 @@
 }
 
 .floating-notifications {
-  background: transparent;
+  background-color: rgba(30, 30, 46, 0);
 }
 
 .blank-window {
-  background: alpha(black, 0.1);
+  background: transparent;
 }
 
 .widget-title {
   color: #7aa2f7;
-  	background-color: rgba(30, 30, 46, 0.8);
+  	  background-color: rgba(30, 30, 46, 0.8);
   padding: 5px 10px;
   margin: 10px 10px 5px 10px;
   font-size: 1.5rem;
@@ -178,7 +179,7 @@
   font-size: 1rem;
   color: #819CD3;
   text-shadow: none;
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
   box-shadow: none;
   border-radius: 5px;
 }
@@ -189,7 +190,7 @@
 }
 
 .widget-dnd {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
   padding: 5px 10px;
   margin: 5px 10px;
   border-radius: 5px;
@@ -209,7 +210,7 @@
 
 .widget-dnd>switch slider,
 .widget-dnd>switch:checked slider {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 1);
   border-radius: 5px;
 }
 
@@ -224,9 +225,9 @@
 
 .widget-mpris {
   color: #819CD3;
-  	background-color: rgba(30, 30, 46, 0.8);
-  padding: 5px 10px;
-  margin: 5px 10px 5px 10px;
+  background-color: rgba(30, 30, 46, 0);
+  padding-top: 5px;
+  margin: 5px 10px 0px 10px;
   border-radius: 0px;
   box-shadow: none;
 }
@@ -260,12 +261,12 @@
   padding: 5px;
   margin: 10px 10px 5px 10px;
   border-radius: 0px;
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button {
   margin: 3px;
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
   border-radius: 0px;
   color: #819CD3;
 }
@@ -291,7 +292,7 @@
 }
 
 .widget-volume {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0.8);
   padding: 5px;
   margin: 5px 10px;
   border-radius: 0px;
@@ -300,7 +301,7 @@
 }
 
 .widget-backlight {
-  	background-color: rgba(30, 30, 46, 0.8);
+  background-color: rgba(30, 30, 46, 0);
   padding: 5px;
   margin: 5px 10px;
   border-radius: 0px;
