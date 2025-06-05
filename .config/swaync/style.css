@@ -235,10 +235,9 @@
 }
 
 .widget-mpris {
-  color: #819CD3;
   background-color: rgba(30, 30, 46, 0);
   padding-top: 5px;
-  margin: 5px 10px 0px 10px;
+  margin: 5px 10px 10px 10px;
   border-radius: 0px;
   box-shadow: none;
 }
@@ -248,9 +247,12 @@
 }
 
 .widget-mpris-player {
+  background-color: rgba(30, 30, 46, 0.8);
+  color: #ffffff;
+  opacity: 1;
   padding: 5px 10px;
   margin: 10px;
-  border-radius: 0px;
+  border-radius: 20px;
   box-shadow: none;
 }
 
@@ -264,7 +266,8 @@
 }
 
 .widget-mpris-album-art {
-  border-radius: 0px;
+  margin: 5px 5px 0px 0px;
+  border-radius: 20px;
 }
 
 .widget-buttons-grid {
